@@ -14,7 +14,9 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <p className='description'>Nextjs Rocks!</p>
-        <Link href='/hello'>Next</Link>
+        <Link href='/hello'>
+          <a>Next</a>
+        </Link>
       </main>
 
       <style jsx>{`
